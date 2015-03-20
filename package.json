@@ -1,14 +1,14 @@
 {
-  "name": "detect-git",
+  "name": "quick-git-hits",
   "version": "0.1.0",
-  "description": "Simple node utility to gather Git metadata about the working directory.",
+  "description": "Simple node utility to do Git things in the current directory.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zetlen/detect-git"
+    "url": "https://github.com/zetlen/quick-git-hits"
   },
   "keywords": [
     "git"
@@ -16,9 +16,9 @@
   "author": "James Zetlen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zetlen/detect-git/issues"
+    "url": "https://github.com/zetlen/quick-git-hits/issues"
   },
-  "homepage": "https://github.com/zetlen/detect-git",
+  "homepage": "https://github.com/zetlen/quick-git-hits",
   "dependencies": {
     "buffered-spawn": "^1.0.1"
   }
