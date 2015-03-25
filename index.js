@@ -20,12 +20,7 @@ module.exports = {
         buffspawn('git', ['ls-remote', '--get-url'], {
           cwd: dir
         }, function(err, stdout, stderr) {
-          if (err) {
-            cb(err);
-          }
-          if (stdout) {
-            detected.repositoryUrl = stdout;
-          }
+          detected.repositoryUrl = stdout;
           cb(null, detected);
         });
       } else {
