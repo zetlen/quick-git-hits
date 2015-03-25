@@ -1,6 +1,6 @@
 {
   "name": "quick-git-hits",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple node utility to do Git things in the current directory.",
   "main": "index.js",
   "scripts": {
